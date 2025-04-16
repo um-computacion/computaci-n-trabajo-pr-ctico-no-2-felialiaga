@@ -1,5 +1,6 @@
 
 def is_palindrome(text):
-    return
+
+    cleanedText = ''.join(c.lower() for c in text if c.isalnum())
 
 
